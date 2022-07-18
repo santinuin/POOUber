@@ -1,14 +1,9 @@
+from lib2to3.pgen2 import driver
 from car import Car
+from account import Account
 
 if __name__ == "__main__":
     
-    car = Car()
-    car.license = "AMS456"
-    car.driver = "Andres Herrera"
+    car = Car("SDA154", Account("Andres Herrera", "21351456"))
     print(vars(car))
-
-    car2 = Car()
-    car2.license = "SDE521"
-    car2.driver = "Raul Guzman"
-    print(vars(car2))
-    
+    print(vars(car.driver))

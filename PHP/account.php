@@ -5,4 +5,7 @@ class Account {
     public $document;
     public $email;
     public $password;     
+
+
 }
+
