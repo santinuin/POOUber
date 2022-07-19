@@ -5,7 +5,7 @@ class UberVan extends Car{
     Map<String, Map<String, Integer>> typeCarAccepted;
     ArrayList<String> seatsMaterial; 
 
-    public UberVan(String license, Account driver,
+    public UberVan(String license, Driver driver,
     Map<String, Map<String, Integer>> typeCarAccepted,
     ArrayList<String> seatsMaterial){
 
