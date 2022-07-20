@@ -1,12 +1,12 @@
 class Main {
     public static void main(String[] args) {
-        Car car = new Car("AMQ123", new Driver("Juan Herrera", "25456854"));
-        car.passenger = 4;
-        car.printDataCar();
+        UberX uberX = new UberX("AMQ123", new Driver("Juan Herrera", "25456854"), "Chevrolet", "Sonic");
+        uberX.setPassenger(4);
+        uberX.printDataCar();
 
-        Car car2 = new Car("QES654", new Driver("Andrea Herrera", "25874965"));
-        car2.passenger = 3;
-        car2.printDataCar();
+        /*UberX uberX2 = new UberX("QES654", new Driver("Andrea Herrera", "25874965"));
+        uberx2.passenger = 3;
+        uberx2.printDataCar();*/
     }
     
 }
